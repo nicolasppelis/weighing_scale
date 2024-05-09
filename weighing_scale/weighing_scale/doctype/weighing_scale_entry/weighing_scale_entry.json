@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-08 09:34:42.323367",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "weighing_scale_entry_section",
+  "items",
+  "btn_load_data",
+  "btn_connect",
+  "values",
+  "btn_read",
+  "tbl_values",
+  "column_break_uxnw",
+  "html_sepdometer",
+  "txt_popup",
+  "column_break_edfg",
+  "uom",
+  "default_bom",
+  "bom_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "btn_connect",
+   "fieldtype": "Button",
+   "label": "Connect"
+  },
+  {
+   "fieldname": "values",
+   "fieldtype": "Small Text",
+   "label": "Values"
+  },
+  {
+   "fieldname": "btn_read",
+   "fieldtype": "Button",
+   "label": "Read"
+  },
+  {
+   "fieldname": "tbl_values",
+   "fieldtype": "Table",
+   "label": "Values",
+   "options": "Weighing Scale Values"
+  },
+  {
+   "fieldname": "html_sepdometer",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "txt_popup",
+   "fieldtype": "Small Text",
+   "label": "From Popup"
+  },
+  {
+   "bold": 1,
+   "columns": 11,
+   "fieldname": "items",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Items",
+   "options": "Item",
+   "reqd": 1,
+   "search_index": 1,
+   "set_only_once": 1,
+   "width": "100%"
+  },
+  {
+   "fieldname": "weighing_scale_entry_section",
+   "fieldtype": "Section Break",
+   "label": "Weighing Scale Entry"
+  },
+  {
+   "fieldname": "btn_load_data",
+   "fieldtype": "Button",
+   "label": "Load data"
+  },
+  {
+   "fieldname": "column_break_uxnw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_edfg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "Item Unit of Measure",
+   "read_only": 1
+  },
+  {
+   "fieldname": "default_bom",
+   "fieldtype": "Data",
+   "label": "Default BOM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bom_items",
+   "fieldtype": "Table",
+   "label": "BOM Description",
+   "options": "BOM Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-16 16:03:52.183095",
+ "modified_by": "Administrator",
+ "module": "Weighing Scale",
+ "name": "Weighing Scale Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
